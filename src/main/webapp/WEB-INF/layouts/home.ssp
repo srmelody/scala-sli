@@ -1,0 +1,28 @@
+ 
+ 
+ <%@ val body: String %>
+  <html>
+    <head>    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+      
+	<link href="/css/prettify.css" type="text/css" rel="stylesheet" />
+	<script type="text/javascript" src="/js/prettify.js"></script>
+    <script>
+    function onload() {
+  
+   		
+   		prettyPrint()
+	}
+    </script>
+    </head>
+    
+    <body onload="onload()">
+
+      
+  
+  <code class="prettyprint lang-javascript linenums">  <%= unescape(body) %></code>
+      
+      
+    </body>
+    
+   
+  </html>
