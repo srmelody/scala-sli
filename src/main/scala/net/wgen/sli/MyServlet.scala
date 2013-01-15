@@ -46,8 +46,7 @@ class MyServlet extends ScalatraServlet with ScalateSupport {
 
     logger.info("Home content:" + content)
 
-    // val responseMap = parse[Map[String, String]](content)
-    // logger.info("Response map: " + responseMap)
+  
 
     contentType = "text/html"
 
